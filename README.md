@@ -4,4 +4,8 @@ In this project, we are building a credit risk analysis from a dataset that has 
 
 ## Purpose
 The purpose of our project is to use machine learning to create, train and evaluate a prediction of credit risk. To train our model, we will create four different types of data sampling due to the unbalanced data set we have. We will use Random Oversampling, SMOTE Oversampling, Random Undersampling, and Combination (Over and Under) Sampling/SMOTEENN Sampling.
-* We need to use the oversamplings due to the lower amounts of the High Risk numbers in comparison to the Low Risk numbers.
+* We need to use various forms of sampling due to the lower amounts of the High Risk numbers in comparison to the Low Risk numbers.
+  * We will be using two forms of Oversampling algorithms: SMOTE (Synthetic Minority Oversampling Technique) and RandomOverSampling (Naive Random Oversampling)
+  * For Undersampling, we will be using the ClusterCentroids algoithm
+  * For the combination sampling, we will be using the SMOTEENN algorithm
+* With Machine Learning, we will be using two different models: BalancedRandomForestClassifier and EasyEnsembleClassifier
