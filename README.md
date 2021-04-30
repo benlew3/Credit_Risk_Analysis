@@ -9,3 +9,6 @@ The purpose of our project is to use machine learning to create, train and evalu
   * For Undersampling, we will be using the ClusterCentroids algoithm
   * For the combination sampling, we will be using the SMOTEENN algorithm
 * With Machine Learning, we will be using two different models: BalancedRandomForestClassifier and EasyEnsembleClassifier
+
+# Results
+
