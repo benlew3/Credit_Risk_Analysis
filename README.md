@@ -11,4 +11,11 @@ The purpose of our project is to use machine learning to create, train and evalu
 * With Machine Learning, we will be using two different models: BalancedRandomForestClassifier and EasyEnsembleClassifier
 
 # Results
-
+1. Random Oversampling:
+The image below is for Random oversampling. Here, we can see that in this model, the High Risk has a precision rate of 1% and a recall of 69%. The Low Risk has a precision of 100%, and a recall rate of 60%. This shows that the overall average precision is 99% and the recall is 60%. The balance accuracy for this model is 65%. 
+![Random Oversampling](https://github.com/benlew3/Credit_Risk_Analysis/blob/main/Images/Resampling/oversampling.PNG)
+![]()
+![]()
+![]()
+![]()
+![]()
